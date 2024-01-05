@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+#front_page{
+    background-image: url(Images/ivana-cajina-dQejX2ucPBs-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+#note_list{
+    position: relative;
+    top: 10%;
+    background-color: white;
+    opacity: 40%;
+    height: 45vh;
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid orangered;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+.btn{
+    color: white;
+    background-color: rgb(128, 128, 128);
+    padding: 5px 13px;
+    font-size: x-large;
+    font-weight: bolder;
+    border: 2px solid rgb(128, 128, 128);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+#rem-btn{
+    padding: 5px 16px;
+}
+#ref-btn{
+    padding: 3px 8px;
+}
+
+
+#add{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+}
+#remove{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+#refresh{
+    position: absolute;
+    right: 10px;
+    bottom: 45%;
+}
+.todo{
+    color: black;
+    background-color: white;
+    width: 80%;
+    border: 2px solid black;
+    margin: 10px 0px 0px 20px;
+    height: 16%;
+    border: 2px solid black;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 3px black;
+}
