@@ -30,6 +30,8 @@ Start adding, refreshing, and deleting notes using the provided buttons.
 To add a note: Enter your task in the input field and click the "Add Note" button.
 To refresh the list: Click the "Refresh" button.
 To delete a note: Click the "Delete" button corresponding to the desired note.
+
+Or just go to the url https://udhay-project-6.netlify.app/
 ## Future Enhancements
 
 Marking Tasks as Completed:
